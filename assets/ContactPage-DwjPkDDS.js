@@ -1,0 +1,2 @@
+import{j as t}from"./ui-EBGk_Ljo.js";import"./router-BUNM7lql.js";import"./vendor-Z2Iecplj.js";function a(){return t.jsx("div",{"data-matrix-id":"src/pages/ContactPage.tsx:1:39","data-matrix-name":"div","data-component-path":"src/pages/ContactPage.tsx","data-component-line":"1","data-component-file":"ContactPage.tsx","data-component-name":"div",children:"Contact Page - Coming Soon"})}export{a as ContactPage};
+//# sourceMappingURL=ContactPage-DwjPkDDS.js.map
