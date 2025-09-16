@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных файлов
+Disallow: /dist/
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /_vite/
+Disallow: /vite.config.ts
+Disallow: /package.json
+Disallow: /tsconfig.json
+
+# Разрешаем доступ к основным страницам
+Allow: /
+Allow: /uslugi/
+Allow: /blog/
+Allow: /otzyvy/
+Allow: /o-mne/
+Allow: /kontakty/
+Allow: /faq/
+Allow: /galereya/
+
+# Разрешаем доступ к статическим ресурсам
+Allow: /images/
+Allow: /data/
+
+# Указываем местоположение карты сайта
+Sitemap: https://master-manas.kz/sitemap.xml
+
+# Настройки для основных поисковиков
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Время задержки между запросами (в секундах)
+Crawl-delay: 1
